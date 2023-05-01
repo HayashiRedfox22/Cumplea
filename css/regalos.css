@@ -1,0 +1,46 @@
+/* regalo 1 */
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap');
+.Contenedor__regalo{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 10px;
+    align-items: center;
+}
+.imagen-regalo{
+    width: 650px;
+    height: 350px;
+    background-size: cover;
+}
+.texto__regalo{
+    width: 40%;
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
+}
+.titulo-regalo{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 30px;
+    font-family: 'Bruno Ace SC', cursive;
+}
+.contenedor-regalo-capturas{
+    flex-direction: column;
+    gap:1.56rem;
+}
+.imagen-regalo-captura{
+    width: 1050px;
+    height: 750px;
+    background-size: cover;
+    
+}
+.texto-regalo-captura{
+    width: 75%;
+    
+}
+.titulo-regalo-captura{
+    margin-top: 85px;
+}
