@@ -7,6 +7,12 @@
     width: 100%;
     margin: 10px;
     align-items: center;
+    flex-wrap: wrap;
+    background-color: azure;
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
 }
 .imagen-regalo{
     width: 650px;
@@ -14,11 +20,12 @@
     background-size: cover;
 }
 .texto__regalo{
-    width: 40%;
+    width: 60%;
     text-align: justify;
     font-size: 25px;
     font-family: 'IBM Plex Sans', sans-serif;
     font-weight: 300;
+    margin-bottom: 20px;
 }
 .titulo-regalo{
     text-align: center;
@@ -26,6 +33,7 @@
     margin-bottom: 40px;
     font-size: 35px;
     font-family: 'Bruno Ace SC', cursive;
+    margin-bottom: 25px;
 }
 .contenedor-regalo-capturas{
     flex-direction: column;

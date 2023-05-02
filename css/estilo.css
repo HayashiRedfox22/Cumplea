@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
 
+body{
+  background-image: url('img/fondo_2.jpg');
+ 
+}
+
 .contenedor {
     font-size: 24px;
     color: #ffffff;
@@ -15,6 +20,11 @@
     box-shadow: 4px 4px 4px 1px rgba(0, 0, 0, 0.2548);
     width: 75%;
     align-items: center;
+    background-size: cover;
+    height: 455px;
+   
+    
+   
 
 }
 .contenedor span {
@@ -23,25 +33,46 @@
     height: 30px;
     line-height: 30px;
     text-align: center;
-    margin: 0 5px;
+    
     background-color: #333;
     color: #fff;
     font-size: 20px;
     border-radius: 50%;
+   
+}
+#contador{
+  margin-top: 150px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.9);
+  font-weight: 700;
+  
+}
+#mensaje{
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+  font-weight: 700;
 }
 .Contenedor-mensaje{
     margin-top: 5.3rem;
     display: flex;
     text-align: center;
-    flex-direction: column;
+    flex-direction: row;
     gap: 1.5rem;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 .texto-mensaje{
     font-size: 1.3654rem;
     font-family: 'Merriweather', serif;
     font-weight: 600;
+    color: #332e2e;
+    width:45% ;
+    text-align: justify;
+    
 }
-
+.imagen-mensaje{
+  width: 45%;
+}
 hr{
     margin-top: 200px;
     margin-bottom: 200px;
@@ -97,7 +128,7 @@ hr{
 }
 
 .boton {
-    position: relative;
+  position: relative;
   display: inline-block;
   padding: 15px 35px;
   font-size: 20px;
@@ -105,18 +136,18 @@ hr{
   text-decoration: none;
   text-transform: uppercase;
   color: #fff;
-  background-color: #4CAF50;
-  border-radius: 50px;
+  background-color: #271f1c;
+  border-radius: 45px;
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   transition: all 600ms ease;
-    width: 15%;
+    width: 25%;
     margin: 0 auto;
     margin-bottom: 85px;
   }
   
   .boton:hover {
-    color: #4CAF50;
+    color: #271f1c;
     background-color: #fff;
   }
   
@@ -129,7 +160,7 @@ hr{
     width: 0;
     height: 0;
     border-radius: 50%;
-    background-color: #4CAF50;
+    background-color: #271f1c;
     z-index: -1;
     transition: all 0.3s ease;
   }
