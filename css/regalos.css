@@ -1,18 +1,21 @@
 /* regalo 1 */
 @import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 .Contenedor__regalo{
+    margin: 0 10px;
     display: flex;
-    justify-content: space-around;
-    width: 100%;
-    margin: 10px;
-    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    gap: 1.5rem;
+    margin-top: 50px;
     flex-wrap: wrap;
-    background-color: azure;
-    width: 85%;
-    margin: 0 auto;
-    margin-top: 20px;
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(154, 224, 224);
+    height: 600px;
+    box-shadow: 0  0 5px rgba(0, 0, 0, 0.801);
+    
 }
 .imagen-regalo{
     width: 650px;
@@ -20,11 +23,11 @@
     background-size: cover;
 }
 .texto__regalo{
-    width: 60%;
+    width: 40%;
     text-align: justify;
     font-size: 25px;
     font-family: 'IBM Plex Sans', sans-serif;
-    font-weight: 300;
+    font-weight: 600;
     margin-bottom: 20px;
 }
 .titulo-regalo{
@@ -38,17 +41,36 @@
 .contenedor-regalo-capturas{
     flex-direction: column;
     gap:1.56rem;
+    width: 85%;
+    margin: 0 auto;
+    height: auto;
+    padding: 10%;
 }
 .imagen-regalo-captura{
     width: 1050px;
     height: 750px;
     background-size: cover;
+
     
 }
 .texto-regalo-captura{
-    width: 75%;
+    width: 90%;
+    font-size: 1.464rem;
     
 }
 .titulo-regalo-captura{
     margin-top: 85px;
+}
+.texto-regalo-img{
+    width: 85%;
+}
+.texto-dialogo{
+    margin-left: 10%;
+    font-weight: 100;
+}
+
+.texto-plegaria{
+    font-family: 'Satisfy', cursive;
+    font-size: 1.85rem;
+    font-weight: 200;
 }

@@ -181,4 +181,38 @@ hr{
   }
   
 
+  .boton-trex {
+    width: 100px;
+    height: 75px;
+    background-color: #333;
+    border: none;
+    border-top-left-radius: 50% 60%;
+    border-top-right-radius: 50% 60%;
+    border-bottom-left-radius: 50% 40%;
+    border-bottom-right-radius: 50% 40%;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .boton-trex::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-top: 20px solid #333;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    transform: rotate(45deg);
+  }
+  
+  .boton-trex::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-bottom: 20px solid #333;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    transform: rotate(-45deg);
+  }
   
