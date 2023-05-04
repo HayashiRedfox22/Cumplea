@@ -14,14 +14,15 @@
         <nav class="contenedor__menu">
             <ul class="contenedor__items">
                 <li class="items-nav"><a href="index.html" class="item-link">Inicio</a></li>
-                <li class="items-nav"><a href="regalo_3.html" class="item-link">Regalo del dia</a></li>
+                <li class="items-nav"><a href="regalo_4.html" class="item-link">Regalo del dia</a></li>
             </ul>
         </nav>
     </header>
     <main >
         <section>
             <article>
-                <div class="contenedor" style=" background-image: url('img/fondo_6.jpg');">
+                <div class="contenedor" style="  background-image: url('img/regalo_4/regalo4_3.png') ;" >
+               
                     <div id="contador">
                         
                     </div>  
@@ -29,12 +30,17 @@
                 </div>
                 <div class="Contenedor-mensaje">
                     
-                    <p class="texto-mensaje"> Hoy el inicio es de dinos y la queso! .... ok ya, vi las imagenes y me dieron ganas de hacerlo asi sakjdaskjjd. Cada dia con menos cordura, pero asi me amas...espero askjdasd</p>
+                    <p class="texto-mensaje"> ¡Mogeko le da la bienvenida! Aunque hoy es su cumpleaños, Mogeko preparó una fiesta sorpresa para usted en el castillo. ¡Venga, venga! No se preocupe por los Mogekos malvados que puedan aparecer. Mogeko está aquí para protegerlo. ¡Que disfrute su cumpleaños en el castillo!</p>
                     
                   
 
-                    <img src="img/regalo_3/index_1.jpg" class="imagen-mensaje" alt="">
-                    <a href="" class="boton" id="regalo_29">¡¿RAaaaaWWR?! ¡Rawr raawwwwwr!</a>
+                    <img src="img/regalo_4/regalo4_4.jpg" class="imagen-mensaje" alt="">
+                    <button type="button" class="boton" data-bs-toggle="modal" onclick="abrirModal()" data-bs-target="#exampleModal">
+                        ¡si me das click te doy un prosciutto!
+                    </button>
+                    <button type="button" class="boton" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                      ¡Mogeko geko!
+                    </button>
                 </div>
                 
             </article>
@@ -47,16 +53,60 @@
         <section>
             <article>
                 <div class="Contenedor-mensaje">
-                    <p class="texto-mensaje">Dato curioso, el spino es de mis dinos favoritos. Y otro dato mas, es el dino que ha tenido mas "actualizaciones" en los ultimos años, cada dia se descubre nuevas cosas o se hacen nuevas teorias de este dino. La ultima que escuche es que la cresta le servia para flotar (no me preguntes como llegaron a eso, yo no les vendo la maria) pero bueno, me encantan por que son tanto hermosos como letales</p>
+                    <p class="texto-mensaje">Deja de matar y hacerle bullying a los pobre mogekos y continua con la navegacion de la pagina </p>
                    
-                    <img src="img/regalo_3/index_2.jpg" class="imagen-mensaje" alt="">
-                    <a href="regalo_3.html" class="boton ">Rawr Raaawr</a>
+                    <img src="img/regalo_4/regalo4_7.jpg" class="imagen-mensaje imagen-final" alt="">
+                    <a href="regalo_4.html" class="boton ">Pobres mogekos....</a>
     
                 </div>
             </article>
             
 
         </section>
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Robaron el  prosciutto... </h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body cuerpo-modal">
+                    <p id="texto">lo siento... estos pequeños se lo comieron todo. Pero !Alabado sea el prosciutto¡</p>
+                  <img src="img/regalo_4/regalo4_1.jpg" class="dino-imagen" alt="">
+                  <button id="btn-cambiar-imagen" class="boton boton-accion" onclick="cambiarImagen()">Toma este cuchillo</button>
+
+                  
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                 
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="staticBackdropLabel">Diario de un mogeko</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body cuerpo-modal">
+                    <p> "Querido diario...aun no supero este ship, y creo que nunca lo hare, es que son tan hermoso...Alabado sea el prosciutto¡"</p>
+                  
+                  <img src="img/regalo_4/regalo4_6.jpg" class="dino-imagen" alt="">
+                  <p>o no....abriste el diario de un mogeko, descubriste uno de sus fetiches mas oscuros</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+          
     </main>
     
  

@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
 
-body{
-  background-image: url('img/fondo_2.jpg');
- 
-}
 
 .contenedor {
     font-size: 24px;
@@ -13,7 +9,6 @@ body{
     display: flex;
     flex-direction: column;  
     text-align: center;
-    background-color: #b84545;
     margin-left: auto;
     margin-right: auto;
     gap: 1.2rem;
@@ -21,11 +16,22 @@ body{
     width: 75%;
     align-items: center;
     background-size: cover;
-    height: 455px;
+    height: 605px;
+
    
     
    
 
+}
+.cuerpo-modal{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.dino-imagen{
+  width: 50%;
+ align-self: center;
 }
 .contenedor span {
     display: inline-block;
@@ -41,14 +47,16 @@ body{
    
 }
 #contador{
-  margin-top: 150px;
+  margin-top: 50px;
   text-shadow: 2px 2px 4px rgba(0,0,0,0.9);
   font-weight: 700;
+  z-index: 3;
   
 }
 #mensaje{
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
   font-weight: 700;
+  z-index: 3;
 }
 .Contenedor-mensaje{
     margin-top: 5.3rem;
@@ -72,6 +80,10 @@ body{
 }
 .imagen-mensaje{
   width: 45%;
+
+}
+.imagen-final{
+  height: 750px;
 }
 hr{
     margin-top: 200px;
@@ -215,4 +227,8 @@ hr{
     border-right: 40px solid transparent;
     transform: rotate(-45deg);
   }
-  
+  .boton-accion{
+    font-size: 1.2rem;
+    width: 75%;
+    margin-top: 20px;
+}
