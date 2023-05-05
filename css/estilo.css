@@ -17,7 +17,7 @@
     align-items: center;
     background-size: cover;
     height: 605px;
-
+    border-radius: 30px;
    
     
    
@@ -47,7 +47,7 @@
    
 }
 #contador{
-  margin-top: 50px;
+  margin-top: 150px;
   text-shadow: 2px 2px 4px rgba(0,0,0,0.9);
   font-weight: 700;
   z-index: 3;
@@ -82,9 +82,7 @@
   width: 45%;
 
 }
-.imagen-final{
-  height: 750px;
-}
+
 hr{
     margin-top: 200px;
     margin-bottom: 200px;
@@ -231,4 +229,111 @@ hr{
     font-size: 1.2rem;
     width: 75%;
     margin-top: 20px;
+}
+
+.musica{
+  margin-top: 20px;
+}
+
+.carrusel h5{
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+  font-weight: 900;
+}
+.carrusel{
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+  font-weight: 900;
+}
+.boton-minecraft{
+  position: relative;
+  display: inline-block;
+  padding: 15px 35px;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+
+  overflow: hidden;
+  transition: all 600ms ease;
+  width: 25%;
+  margin: 0 auto;
+   margin-bottom: 85px;
+  border: none;
+  background: white;
+}
+
+
+.boton-minecraft:hover {
+  transform: rotate(30deg);
+}
+
+.img-pico {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.img-pico:hover {
+  cursor: pointer;
+}
+
+.boton-esmeralda{
+  position: relative;
+  display: inline-block;
+  padding: 15px 35px;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+
+  overflow: hidden;
+  transition: all 600ms ease;
+  width: 25%;
+  margin: 0 auto;
+   margin-bottom: 85px;
+  border: none;
+  transform: translate(0, 0%);
+  background: rgba(255, 255, 255, 0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.img-esmeralda{
+  width: 50%;
+}
+.boton-esmeralda:hover{
+  transform: translate(0, -20%);
+ 
+}
+
+
+.boton-espada {
+  position: relative;
+  display: inline-block;
+  padding: 15px 35px;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+
+  overflow: hidden;
+  transition: all 600ms ease;
+  width: 25%;
+  margin: 0 auto;
+   margin-bottom: 85px;
+  border: none;
+  background: white;
+}
+.boton-espada:hover{
+  transform: scaleX(-1);
+}
+
+.texto-modal{
+  text-align: justify;
+  font-size: 20px;
+  width: 75%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }

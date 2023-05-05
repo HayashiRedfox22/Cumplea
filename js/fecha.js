@@ -14,8 +14,8 @@ function convertirTiempo(tiempo) {
 function actualizarContador() {
     const tiempo = tiempoRestante();
     const { dias, horas, minutos, segundos } = convertirTiempo(tiempo);
-    document.getElementById('contador').innerHTML = `Faltan ${dias} días, ${horas} horas, ${minutos} minutos y ${segundos} `;
-    document.getElementById('mensaje').innerHTML = `Para tu cumpleaños mi amor uwu`;
+    document.getElementById('contador').innerHTML = `Vaya... aun faltan ${dias} días, ${horas} horas, ${minutos} minutos y ${segundos} `;
+    document.getElementById('mensaje').innerHTML = `Para tu cumpleaños... tomemoslo con calma`;
 }
 setInterval(actualizarContador, 1000);
 
