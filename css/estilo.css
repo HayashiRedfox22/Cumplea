@@ -302,7 +302,7 @@ hr{
   width: 50%;
 }
 .boton-esmeralda:hover{
-  transform: translate(0, -20%);
+  transform: translate(0, -20%) scaleX(-1);
  
 }
 
