@@ -78,9 +78,18 @@
     text-align: justify;
     
 }
+.imagen-final{
+  width: 45%;
+  border-radius: 5%;
+}
 .imagen-mensaje{
   width: 45%;
-
+  border: 2px solid RGBA(128, 128, 128, 1);
+  border-bottom-left-radius: 60%;
+  border-top-left-radius: 40%;
+  border-bottom-right-radius: 15%;
+  border-top-right-radius: 30%;
+  box-sizing: border-box;
 }
 
 hr{
@@ -252,7 +261,7 @@ hr{
   text-decoration: none;
   text-transform: uppercase;
   color: #fff;
-
+  transform: translate(0,0);
   overflow: hidden;
   transition: all 600ms ease;
   width: 25%;
@@ -264,23 +273,25 @@ hr{
 
 
 .boton-minecraft:hover {
-  transform: rotate(30deg);
+
+  transform: translate(0, -20%) ;
 }
 
 .img-pico {
   display: block;
-  max-width: 100%;
+  max-width: 50%;
   height: auto;
 }
 
 .img-pico:hover {
   cursor: pointer;
+  
 }
 
 .boton-esmeralda{
   position: relative;
   display: inline-block;
-  padding: 15px 35px;
+  padding: 30px 45px;
   font-size: 20px;
   font-weight: 600;
   text-decoration: none;
@@ -295,11 +306,11 @@ hr{
   border: none;
   transform: translate(0, 0%);
   background: rgba(255, 255, 255, 0);
-  transition: transform 0.3s ease-in-out;
+  transition: transform 400ms ease-in-out;
 }
 
 .img-esmeralda{
-  width: 50%;
+  width: 75%;
 }
 .boton-esmeralda:hover{
   transform: translate(0, -20%) scaleX(-1);
@@ -323,10 +334,20 @@ hr{
   margin: 0 auto;
    margin-bottom: 85px;
   border: none;
-  background: white;
+  background: rgba(255, 255, 255, 0);
+  
 }
 .boton-espada:hover{
-  transform: scaleX(-1);
+  animation: spin 2s linear infinite;
+  
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .texto-modal{
@@ -336,4 +357,14 @@ hr{
   margin: 0 auto;
   margin-bottom: 20px;
   margin-top: 20px;
+}
+
+.zorro{
+  width: 50%;
+  fill: rgba(30, 48, 80);
+  transition: fill 1s ease-in-out;
+}
+
+.zorro:hover{
+  fill: rebeccapurple 
 }

@@ -15,7 +15,7 @@ function actualizarContador() {
     const tiempo = tiempoRestante();
     const { dias, horas, minutos, segundos } = convertirTiempo(tiempo);
     document.getElementById('contador').innerHTML = `Vaya... aun faltan ${dias} días, ${horas} horas, ${minutos} minutos y ${segundos} `;
-    document.getElementById('mensaje').innerHTML = `Para tu cumpleaños... tomemoslo con calma`;
+    document.getElementById('mensaje').innerHTML = `jsksjkj Annie y Matthi estan ansiosos para tu cumple`;
 }
 setInterval(actualizarContador, 1000);
 
