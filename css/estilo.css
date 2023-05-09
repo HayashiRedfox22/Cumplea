@@ -18,6 +18,7 @@
     background-size: cover;
     height: 605px;
     border-radius: 30px;
+    background-image: url('../img/regalo_7/Zilean_14.jpg');
    
     
    
@@ -85,10 +86,7 @@
 .imagen-mensaje{
   width: 45%;
   border: 2px solid RGBA(128, 128, 128, 1);
-  border-bottom-left-radius: 60%;
-  border-top-left-radius: 40%;
-  border-bottom-right-radius: 15%;
-  border-top-right-radius: 30%;
+  border-radius: 10%;
   box-sizing: border-box;
 }
 
@@ -247,10 +245,13 @@ hr{
 .carrusel h5{
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
   font-weight: 900;
+  font-size: 1.5rem;
 }
-.carrusel{
+
+.carrusel p{
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
   font-weight: 900;
+  font-size: 1.156rem;
 }
 .boton-minecraft{
   position: relative;
@@ -268,7 +269,7 @@ hr{
   margin: 0 auto;
    margin-bottom: 85px;
   border: none;
-  background: white;
+  background: rgba(255, 255, 255, 0);
 }
 
 
@@ -281,6 +282,7 @@ hr{
   display: block;
   max-width: 50%;
   height: auto;
+  border-radius: 50%;
 }
 
 .img-pico:hover {
@@ -367,4 +369,9 @@ hr{
 
 .zorro:hover{
   fill: rebeccapurple 
+}
+.imagen-compartida{
+  width: 80%;
+  height: 500px;
+ background-image: cover;
 }
